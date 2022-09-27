@@ -1,0 +1,144 @@
+section1,section2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section1 {
+  background: #fff;
+}
+
+section2 {
+  background: #34495e;
+  
+}
+
+.box1,.box2 {
+  width: 300px;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.box1 {
+  background: #E5E5E5;;
+  box-shadow: 4px 4px 12px rgba(230, 233, 236, 0.47), -4px -4px 12px rgba(221, 223, 225, 0.5);
+}
+
+.box2 {
+  background: #1E3143;
+  box-shadow: 4px 4px 12px rgba(15, 25, 35, 0.47), -4px -4px 12px rgba(34, 64, 92, 0.5);
+}
+  
+
+
+.box1 h1,h3 {
+  color:#07225e;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 38px;
+}
+
+.box1 h3 {
+  font-size: 18px;
+  color:#07225e;
+}
+
+.box1 input[type=text],
+.box1 input[type=password] {
+  background: #e4e9ee;
+  width: 200px;
+  padding: 14px 10px;
+  outline: none;
+  margin: 12px auto;
+  display: block;
+  border-radius: 60px;
+  text-align: center;
+  color:  #07225e;
+  border: 0;
+  cursor: default;
+  box-shadow: inset 4px 4px 12px #dee4e9, inset -4px -4px 12px rgba(129, 126, 126, 0.25);
+}
+
+
+.box1 input[type=submit] {
+  background: #dee4e9;
+  text-align: center;
+  color:  #07225e;
+  display: block;
+  padding: 14px 40px;
+  margin: 40px auto;
+  border: 0;
+  outline: none;
+  box-shadow: -4px -4px 12px rgba(34, 64, 92, 0.5), 4px 4px 12px rgba(15, 25, 35, 0.47);
+  border-radius: 60px;
+  cursor: default;
+}
+
+.box2 h1,h3 {
+  color:#08979C;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 38px;
+}
+
+.box2 h3 {
+  font-size: 18px;
+}
+
+.box2 input[type=text],
+.box2 input[type=password]{
+  background: #1E3143;
+  width: 200px;
+  padding: 14px 10px;
+  outline: none;
+  display: block;
+  margin: 12px auto;
+  border-radius: 60px;
+  text-align: center;
+  color:  #08979C;
+  border: 0;
+  cursor: default;
+  box-shadow: inset 4px 4px 12px #152534, inset -4px -4px 12px rgba(147, 147, 147, 0.25);
+}
+
+.box1,.box2 input[type="text"]::placeholder,
+.box1,.box2 input[type="password"]::placeholder {
+  color: #08979C;
+  }
+
+.box2 input[type=submit] {
+  background: #1E3143;
+  text-align: center;
+  display: block;
+  color:  #08979C;
+  padding: 14px 40px;
+  margin: 40px auto;
+  border: 0;
+  outline: none;
+  box-shadow: -4px -4px 12px rgba(34, 64, 92, 0.5), 4px 4px 12px rgba(15, 25, 35, 0.47);
+  border-radius: 60px;
+  cursor: default;
+}
+
+.ps-field {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  line-height: 90px;
+}
+
+.icon1,.icon2 {
+  position: absolute;
+  margin-left: 220px;
+}
+
+.icon1 {
+  color: #07225e;
+}
+
+.icon2 {
+  color: #08979C;
+}
